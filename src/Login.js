@@ -3,11 +3,13 @@ import "./Login.css";
 
 function Login() {
   return (
-    <div>
-      {/* Spotify logo */}
-      {/*  */}
+    <div className="login">
+      <img
+        src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
+        alt=""
+      />
 
-      <h1>Login</h1>
+      <a>LOGIN WITH SPOTIFY</a>
     </div>
   );
 }
